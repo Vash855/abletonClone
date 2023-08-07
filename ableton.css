@@ -1,0 +1,47 @@
+.navLinks{
+	display: flex;
+	
+}
+.leftNavLinks a{
+	margin-right: 20px;
+	color: black;
+	font-weight: 600;
+	&.redLink{
+		color: var(--logo);
+	}
+}
+
+.hpIcons{
+	width: 100px;
+	display: flex;
+	background-color: transparent;
+}
+
+.icon1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+}
+
+.icon2{
+	margin-right: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+}
+.iconBar{
+	height: 5px;
+	width: 30px;
+	background-color: black;
+}
+.iconBars{
+	height: 30px;
+	width: 5px;
+	background-color: black;
+}
