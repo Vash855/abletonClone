@@ -39,7 +39,7 @@ body{
 
 nav{
 	padding: 0;
-	margin: 0;
+	margin-bottom:3px;
 }
 
 ul{
@@ -55,11 +55,11 @@ a{
 
 .container{
 	background-color: var(--bgsecondary);
-	width: 1000px;
+	margin: 0 auto;
 }
 
 
 
-@media (min-width: 1200px) {
-	.container {max-width: 1140px;}
+@media screen and (min-width: 1700px) {
+	.container {max-width: calc(100vw - 15rem);;}
 }
