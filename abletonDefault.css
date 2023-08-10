@@ -34,10 +34,13 @@ body{
 }
 
 
-
+*{
+	box-sizing: border-box;
+}
 
 
 nav{
+	display: block;
 	padding: 0;
 	margin-bottom:3px;
 }
