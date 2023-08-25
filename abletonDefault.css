@@ -59,6 +59,7 @@ a{
 .container{
 	background-color: var(--bgsecondary);
 	margin: 0 auto;
+ padding: 0;
 }
 
 
